@@ -1,9 +1,9 @@
 ---
-title: Reading List
+title: Zasady
 subtitle: a list of books I read
 layout: "page"
-icon: fa-book
-order: 3
+icon: fa-pencil-alt
+order: 2
 ---
 
 I love books! Here are some I'm reading now:

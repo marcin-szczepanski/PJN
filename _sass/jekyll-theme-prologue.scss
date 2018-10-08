@@ -729,7 +729,8 @@
 		/* Header */
 
 			#header {
-				width: 300px;
+				width: 350px;
+				z-index: 1;
 			}
 
 		/* Footer */
@@ -741,7 +742,7 @@
 		/* Main */
 
 			#main {
-				margin-left: 300px;
+				margin-left: 350px;
 			}
 
 	}

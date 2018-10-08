@@ -17,9 +17,9 @@ layout: default
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
 			{{- _post.date | date_to_long_string -}}
 		{%- endcapture -%}
-		{%- capture _excerpt -%}<p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
-		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}
-		{%- assign _content = _excerpt | append: _link -%}
+		{%- capture _description -%}<p>{{- _post.description -}}</p>{%- endcapture -%}
+		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">Wejdź do lekcji</a>{%- endcapture -%}
+		{%- assign _content = _description | append: _link -%}
 		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
 	{%- endfor -%}
 </div>
