@@ -1,5 +1,5 @@
 ---
-title: 20. Wykorzystanie gramatyk formalnych do analizy składniowej zdania
+title: 20. Rozpoznawanie bytów nazwanych
 author: Marcin Szczepański
 layout: post
 description: Kursanci nauczą się rozpoznawać tzw. byty nazwane w tekście przy pomocy biblioteki SpaCy.
