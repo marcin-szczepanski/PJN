@@ -34,7 +34,7 @@ order: 2
 13. Tokenizacja i segmentacja.
 14. Stemming i lematyzacja. POS-Tagging.
 15. Analiza morfologiczna tekstów języka polskiego.
-16. Gramatyki formalne.
+16. Podstawy gramatyk formalnych.
 17. Budowanie gramatyk formalnych.
 18. Analiza składniowa zdania w NLTK.
 19. Wykorzystanie gramatyk formalnych do analizy składniowej zdania.
