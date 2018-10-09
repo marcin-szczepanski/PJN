@@ -1,9 +1,9 @@
 ---
-title: 01. Czym jest przetwarzanie języka naturalnego?
+title: 14. Stemming i lematyzacja. POS-Tagging
 author: Marcin Szczepański
 layout: post
-description: Na zajęciach zostanie przedstawiona tematyka kursu i etapy przetwarzania tekstów języka naturalnego. Następnie kursanci będą przygotowywać środowisko programistyczne do dalszej pracy (język Python; środowisko PyCharm).
-date: 2018-10-08
+description: Po zajęciach kursanci będą potrafili ujednolicać formy wyrazów poprzez stemming i lematyzację. Ponadto będą potrafili przypisywać części mowy do wyrazów w korpusie przy pomocy POS-Taggingu.
+date: 2018-10-21
 ---
 Lorem ipsum dolor sit amet, iusto ridens dictas te sed. Error latine vis et. Ex cum munere definitiones, ne quas debitis contentiones cum, epicurei constituam ea sit. Dicant aeterno dolorum ex eum, qui everti iisque consectetuer ea! Duo in falli similique, nec tritani accusam te. Enim sapientem intellegat te pri, nam at atqui accumsan vituperata.
 

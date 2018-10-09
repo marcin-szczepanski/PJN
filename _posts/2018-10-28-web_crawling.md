@@ -1,9 +1,9 @@
 ---
-title: Podstawy składni języka Python - cz. I
+title: 21. Web Crawling
 author: Marcin Szczepański
 layout: post
-description: Na zajęciach zostaną przedstawione podstawy algorytmiki i programowania w języku Python. Kursanci po&nbsp;zajęciach będą potrafili posługiwać się zmiennymi i typami, podstawowymi operatorami matematycznymi oraz będą stosować instrukcje warunkowe.
-date: 2018-10-09 15:27
+description: Kursanci poznają podstawy budowy stron internetowych i ich ściągania.
+date: 2018-10-28
 ---
 Lorem ipsum dolor sit amet, iusto ridens dictas te sed. Error latine vis et. Ex cum munere definitiones, ne quas debitis contentiones cum, epicurei constituam ea sit. Dicant aeterno dolorum ex eum, qui everti iisque consectetuer ea! Duo in falli similique, nec tritani accusam te. Enim sapientem intellegat te pri, nam at atqui accumsan vituperata.
 

@@ -1,9 +1,9 @@
 ---
-title: Podstawy składni języka Python - cz. II
+title: 11. Przetwarzanie tekstów języka naturalnego na przykładzie narzędzia PSI-Toolkit
 author: Marcin Szczepański
 layout: post
-description: Kursanci po&nbsp;zajęciach będą potrafili posługiwać się pętlami i tablicami.
-date: 2018-10-10
+description: Kursanci zostaną wprowadzeni w tematykę przetwarzania tekstów języka naturalnego. Na zajęciach zostanie dokonany przegląd możliwości narzędzi do obróbki tekstu na przykładzie narzędzia PSI-Toolkit.
+date: 2018-10-18
 ---
 Lorem ipsum dolor sit amet, iusto ridens dictas te sed. Error latine vis et. Ex cum munere definitiones, ne quas debitis contentiones cum, epicurei constituam ea sit. Dicant aeterno dolorum ex eum, qui everti iisque consectetuer ea! Duo in falli similique, nec tritani accusam te. Enim sapientem intellegat te pri, nam at atqui accumsan vituperata.
 
