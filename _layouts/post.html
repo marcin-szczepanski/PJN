@@ -10,7 +10,26 @@ layout: default
 	  <div class="container">
 			<header>
 				<h2>{{- page.title -}}</h2>
-				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+				<p>{% if page.author %}{{ page.author }}, {% endif %}
+					<!-- Whitespace added for readability -->
+					{% assign m = page.date | date: "%-m" %}
+					{{ page.date | date: "%-d" }}
+					{% case m %}
+					{% when '1' %}stycznia
+					{% when '2' %}lutego
+					{% when '3' %}marca
+					{% when '4' %}kwietnia
+					{% when '5' %}maja
+					{% when '6' %}czerwca
+					{% when '7' %}lipca
+					{% when '8' %}sierpnia
+					{% when '9' %}września
+					{% when '10' %}października
+					{% when '11' %}listopada
+					{% when '12' %}grudnia
+					{% endcase %}
+					
+					{{ page.date | date: "%Y" }}</p>
 			</header>
 	    {{- content -}}
 	  </div>

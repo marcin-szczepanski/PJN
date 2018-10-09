@@ -15,7 +15,26 @@ layout: default
 		{%- endcapture -%}
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
-			{{- _post.date | date_to_long_string -}}
+
+			<!-- Whitespace added for readability -->
+			{% assign m = _post.date | date: "%-m" %}
+			{{ _post.date | date: "%-d" }}
+			{% case m %}
+			{% when '1' %}stycznia
+			{% when '2' %}lutego
+			{% when '3' %}marca
+			{% when '4' %}kwietnia
+			{% when '5' %}maja
+			{% when '6' %}czerwca
+			{% when '7' %}lipca
+			{% when '8' %}sierpnia
+			{% when '9' %}września
+			{% when '10' %}października
+			{% when '11' %}listopada
+			{% when '12' %}grudnia
+			{% endcase %}
+			{{ _post.date | date: "%Y" }}
+
 		{%- endcapture -%}
 		{%- capture _description -%}<p>{{- _post.description -}}</p>{%- endcapture -%}
 		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">Wejdź do lekcji</a>{%- endcapture -%}
