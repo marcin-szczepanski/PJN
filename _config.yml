@@ -61,4 +61,4 @@ google_analytics:
 remote_theme: jekyll-theme-prologue
 collections: [sections]
 
-future: false
+future: true
