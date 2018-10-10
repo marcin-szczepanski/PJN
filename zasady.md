@@ -12,9 +12,9 @@ order: 2
 - na zajęciach uczestnicy rozwiązują zadania z pomocą prowadzącego a&nbsp;następnie wysyłają ich rozwiązania na&nbsp;jego skrzynkę pocztową do&nbsp;następnych zajęć;
 - po zajęciach uczestnicy dostają zadania domowe, które również wysyłają na&nbsp;skrzynkę pocztową prowadzącego do&nbsp;następnych zajęć;
 - wiadomość z zadaniem z zajęć powinna mieć tytuł w następującym formacie:
-<span style="display: table;font-weight: bolder;">[PJN][Zajęcia nr XX][z zajęć][Zadanie nr X] - Nazwisko Imię</span>
+<span style="display: table;font-weight: bolder;">[PJN][z zajęć][Zajęcia nr XX][Zadanie nr X] - Nazwisko Imię</span>
 - wiadomość z zadaniem domowym powinna mieć tytuł w następującym formacie:
-<span style="display: table;font-weight: bolder;">[PJN][Zajęcia nr XX][domowe][Zadanie nr X] - Nazwisko Imię</span>
+<span style="display: table;font-weight: bolder;">[PJN][domowe][Zajęcia nr XX][Zadanie nr X] - Nazwisko Imię</span>
 
 
 ### Tematy zajęć
